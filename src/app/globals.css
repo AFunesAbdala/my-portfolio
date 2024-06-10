@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    src: url('../../public/font/DarkerGrotesque.ttf') format('ttf');
+}
