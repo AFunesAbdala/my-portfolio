@@ -393,7 +393,7 @@ export default function MyProjectsComponent() {
                         </motion.div>
                     </div>
                     <div className="pt-10 w-3/6 flex flex-col gap-6 items-center justify-center">
-                        <h1 className="font-darkerGrotesque font-medium text-4xl">And we're just getting better...</h1>
+                        <h1 className="font-darkerGrotesque font-medium text-4xl">And we&apos;re just getting better...</h1>
                         <div className="w-12 h-12 bg-[url('/icon/loading-icon.png')] bg-center bg-cover animate-spin"></div>
                     </div>
                 </div>
