@@ -38,8 +38,8 @@ module.exports = {
           '100%': { opacity: '1' },
         },
         slide: {
-          '0': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-103%)'}
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(calc(-100% - 16px))' },
         }
       },
       animation: {
@@ -54,7 +54,7 @@ module.exports = {
         fadeInTop4: 'fadeInTop 2s',
         fadeInTop5: 'fadeInTop 2.4s',
         fadeInBottom: 'fadeInBottom 1s',
-        slide: 'slide 20s infinite linear'
+        slide: 'slide 15s infinite linear'
       }
     },
   },

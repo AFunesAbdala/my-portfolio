@@ -26,7 +26,7 @@ export default function PhraseComponent() {
             }}
             className="w-full h-[200px] flex items-center justify-center"
         >
-            <h1 className="font-darkerGrotesque font-medium text-6xl text-center leading-[50px]">&quot;A happy user <br></br> is a secured client&quot;</h1>
+            <h1 className="font-darkerGrotesque font-medium text-6xl text-center leading-[50px]">&quot;HappyUser = SecuredClient&quot;</h1>
         </motion.div>
     )
 }
