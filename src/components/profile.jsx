@@ -17,7 +17,7 @@ export default function ProfileComponent() {
     return (
         <Element name="profile_top" className="h-screen w-full flex flex-col gap-20 justify-center items-center">
             <div ref={ref} className="w-full flex flex-col gap-8 pt-28 xl:p-0 xl:flex-row items-center justify-between 2xl:pb-8">
-                <div className="flex flex-col gap-5">
+                <div className="w-[300px] xl:w-fit flex flex-col gap-5">
                     <h1 className="font-darkerGrotesque font-bold text-gray-800 text-6xl leading-[50px] animate-fadeInLeft">So,<br></br>Welcome! </h1>
                     <h2 className="w-60 2xl:w-fit font-darkerGrotesque font-medium text-gray-800 text-xl leading-5 animate-fadeInTopShort1">I’m Alejo, a Front End developer and a UX/UI designer.</h2>
                     <Link href='https://drive.google.com/file/d/18pkpxiqoPESE-i53UBECIpaNYsseMiL8/view' target="_blank" className="flex flex-row items-center pt-2 pb-[10px] px-4 bg-[#DDCDFF] w-fit rounded-xl gap-1 hover:shadow-lg hover:shadow-purple-200 duration-300 animate-fadeInTopShort2">
