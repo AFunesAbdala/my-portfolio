@@ -26,7 +26,7 @@ module.exports = {
           '100%': { opacity: '1' },
         },
         fadeInRight: {
-          '0%': { opacity: '0', transform: 'translate(20px, 0px)', ease: 'easeOut' },
+          '0%': { display: 'none', opacity: '0', transform: 'translate(20px, 0px)', ease: 'easeOut' },
           '100%': { opacity: '1' },
         },
         fadeInBottom: {

@@ -59,7 +59,7 @@ export default function MyProjectsComponent() {
 
 
     return (
-        <section className="w-full flex flex-col items-center">
+        <section className="w-[90%] xl:w-full flex flex-col items-center">
             <Element name="my_projects" className="w-full flex flex-col items-center gap-5 pt-40">
                 <motion.h1
                     ref={ref}
@@ -69,10 +69,9 @@ export default function MyProjectsComponent() {
                         visible: { opacity: 1, translateX: 0, transition: { duration: .5, ease: "easeOut" } },
                         hidden: { opacity: 0, translateX: -30 },
                     }}
-                    className="w-3/6 font-darkerGrotesque text-6xl font-bold"
+                    className="font-darkerGrotesque text-5xl xl:text-6xl font-bold"
                 >My Projects</motion.h1>
                 <div className="w-full flex flex-col items-center gap-24 mt-4">
-
 
                     {/* PROYECTO 1 */}
                     <div className="w-[90%] flex flex-row items-center justify-between gap-4 border-2 border-dashed rounded-2xl pt-6 px-6 border-purple-400">

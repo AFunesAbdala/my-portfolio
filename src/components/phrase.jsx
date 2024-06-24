@@ -24,9 +24,9 @@ export default function PhraseComponent() {
                 visible: { opacity: 1, translateY: 0, transition: { duration: 1, ease: "easeOut" } },
                 hidden: { opacity: 0, translateY: 50 },
             }}
-            className="w-full h-[200px] flex items-center justify-center"
+            className="w-full flex flex-col items-center justify-center pt-20"
         >
-            <h1 className="font-darkerGrotesque font-medium text-6xl text-center leading-[50px]">&quot;HappyUser = SecuredClient&quot;</h1>
+            <h1 className="w-full font-darkerGrotesque font-medium text-5xl xl:text-6xl text-center leading-10 xl:leading-[50px]">&quot;HappyUser = SecuredClient&quot;</h1>
         </motion.div>
     )
 }

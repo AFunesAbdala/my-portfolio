@@ -31,8 +31,8 @@ export default function NavComponent() {
     }, [isInView]);
 
     return (
-        <div className="w-full flex flex-col items-center">
-            <div className="fixed top-12 z-30 px-5 pb-4 pt-2 flex flex-col items-center justify-center gap-2 border-[1px] rounded-2xl backdrop-blur-sm">
+        <div className="w-[90%] xl:w-full flex flex-col items-center">
+            <div className="w-[90%] fixed top-12 z-30 px-5 pb-4 pt-2 flex flex-col items-center justify-center gap-2 border-[1px] rounded-2xl backdrop-blur-sm">
                 <h1 className="font-darkerGrotesque font-medium text-center text-gray-800 text-lg">Alejo&apos;s Portfolio</h1>
                 <div className="flex flex-row gap-3 xl:gap-10">
                     <LinkTo to="about_me" smooth={true} duration={400} id="about_button" className={"bg-[#DDCDFF] w-10 h-10 rounded-full hover:w-28 duration-300 ease-out flex items-center justify-center text-center pb-[2px] cursor-pointer animate-fadeInTop1"} onMouseEnter={(event) => handleHover(event)} onMouseLeave={() => handleHover(false)}>

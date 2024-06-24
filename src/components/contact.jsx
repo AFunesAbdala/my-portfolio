@@ -20,7 +20,7 @@ export default function ContactComponent() {
     }, [isInView])
 
     return (
-        <div className="w-full pb-20 flex flex-col gap-5">
+        <div className="w-[90%] xl:w-full pb-20 flex flex-col gap-5">
             <motion.h1
                 initial="hidden"
                 animate={controls}

@@ -18,7 +18,7 @@ export default function EducationComponent() {
     }, [isInView])
 
     return (
-        <div ref={ref} className="w-full h-screen flex flex-col justify-center gap-10">
+        <div ref={ref} className="w-[90%] xl:w-full h-screen flex flex-col justify-center gap-10 overflow-hidden xl:overflow-visible">
             <motion.h1
                 initial="hidden"
                 animate={controls}

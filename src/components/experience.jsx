@@ -25,7 +25,7 @@ export default function ExperienceComponent() {
     }, [isInView])
 
     return (
-        <div ref={ref} className="w-full h-screen flex flex-col justify-center">
+        <div ref={ref} className="w-[90%] xl:w-full h-screen flex flex-col justify-center overflow-hidden xl:overflow-visible">
             <Element name='experience' className="w-full h-screen flex flex-col justify-center gap-10">
                 <motion.h1
                     ref={ref}

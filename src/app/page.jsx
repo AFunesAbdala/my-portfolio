@@ -13,19 +13,15 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center w-full bg-[#F5F0FF]">
       <NavComponent />
-      <div className="w-[90%] xl:w-3/6">
-        <ProfileComponent />
-        <PhraseComponent />
-        <AboutMeComponent />
-      </div>
+      <ProfileComponent />
+      <PhraseComponent />
+      <AboutMeComponent />
       <MyProjectsComponent />
-      <div className="w-[90%] xl:w-3/6">
-        <ExperienceComponent />
-        <EducationComponent />
-        <SkillsComponent />
-        <EmailComponent />
-        <ContactComponent />
-      </div>
+      <ExperienceComponent />
+      <EducationComponent />
+      <SkillsComponent />
+      <EmailComponent />
+      <ContactComponent />
     </main>
   );
 }

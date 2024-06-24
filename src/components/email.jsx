@@ -19,16 +19,17 @@ export default function EmailComponent() {
     }, [isInView])
 
     return (
-        <div className="w-full h-screen flex flex-row items-center justify-between">
-            <Element name="contact" className="w-full h-screen flex flex-row items-center justify-between">
+        <div className="w-[90%] xl:w-full h-screen flex flex-row items-center justify-between">
+            <Element name="contact" className="w-full h-screen flex flex-col-reverse gap-6 xl:flex-row items-center justify-center xl:justify-between">
                 <motion.div
+                    ref={ref}
                     initial="hidden"
                     animate={controls}
                     variants={{
                         visible: { opacity: 1, translateY: 0, transition: { duration: 1.5, ease: "easeOut", } },
                         hidden: { opacity: 0, translateY: 20 },
                     }}
-                    className="h-4/6 w-3/6 bg-[#803BFF] flex flex-col gap-8 rounded-3xl px-8 py-6"
+                    className="h-3/6 xl:h-4/6 w-full xl:w-3/6 bg-[#803BFF] flex flex-col gap-8 rounded-3xl px-8 py-6"
                 >
                     <form className="flex flex-col gap-2 grow">
                         <div className="flex flex-col gap-2">
@@ -47,7 +48,6 @@ export default function EmailComponent() {
                     </form>
                 </motion.div>
                 <motion.h1
-                    ref={ref}
                     initial="hidden"
                     animate={controls}
                     variants={{
